@@ -10,15 +10,10 @@ RUN yes | unminimize && \
   apt-get install -y \
     apt-utils \
     build-essential \
-    sofware-properties-common \
-    apt-transport-https \
-    ca-certificates \
     man-db \
     curl \
     vim \
     tmux \
-    perl \
-    python \
     git \
     sudo \
     w3m \
