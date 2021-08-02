@@ -31,4 +31,4 @@ RUN yes | unminimize && \
     make \
     less \
     && \
-  apt-get update -y && \
+  apt-get update -y
