@@ -15,8 +15,20 @@ RUN yes | unminimize && \
     ca-certificates \
     man-db \
     curl \
+    vim \
+    tmux \
+    perl \
+    python \
+    git \
+    sudo \
+    w3m \
+    shellcheck \
+    ed \
+    bc \
+    htop \
+    ssh \
+    rsync \
+    make \
+    less \
     && \
   apt-get update -y && \
-  apt-get install -y --no-install-recommends \
-    vim tmux perl python git sudo w3m shellcheck ed bc htop \
-    ssh rsync make less
