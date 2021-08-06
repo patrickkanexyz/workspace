@@ -9,21 +9,21 @@ RUN yes | unminimize && \
   apt-get -y --no-install-recommends upgrade && \
   apt-get install -y \
     apt-utils \
-    build-essential \
-    man-db \
-    curl \
-    vim \
-    tmux \
-    git \
-    sudo \
-    w3m \
-    shellcheck \
-    ed \
     bc \
+    build-essential \
+    curl \
+    ed \
+    git \
     htop \
-    ssh \
-    rsync \
-    make \
     less \
+    make \
+    man-db \
+    rsync \
+    shellcheck \
+    ssh \
+    sudo \
+    tmux \
+    vim \
+    w3m \
     && \
   apt-get update -y
